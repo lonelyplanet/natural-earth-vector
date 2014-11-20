@@ -10,8 +10,8 @@ require 'json'
 collection = {'type' => 'FeatureCollection', 'features' => []}
 
 Dir.foreach(source_folder) do |country|
-  puts country
   next if country[0].chr == '.'
+  puts country
   collection['features'] << JSON.parse(File.read(File.join(source_folder, country)))
 end
 
