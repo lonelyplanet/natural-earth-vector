@@ -57,7 +57,7 @@ Dir.foreach(source_folder) do |file_name|
         !polygon_within?(polygon, boundary.split(/,s*/))
       end
       ['adm0_a3', 'gu_a3', 'su_a3', 'brk_a3', 'iso_a3', 'adm0_a3_is', 'adm0_a3_us'].each do |k|
-        target_hash[k] = target
+        target_hash['properties'][k] = target
       end
       write_dest(dest_folder, target, target_hash)
     end
