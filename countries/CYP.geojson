@@ -2,6 +2,7 @@
 {
   "type": "Feature",
   "properties": {
+  "scalerank":1,"featurecla":"Admin-0 country","labelrank":5.0,"sovereignt":"Cyprus","sov_a3":"CYP","adm0_dif":0.0,"level":2.0,"type":"Sovereign country","admin":"Cyprus","adm0_a3":"CYP","geou_dif":0.0,"geounit":"Cyprus","gu_a3":"CYP","su_dif":0.0,"subunit":"Cyprus","su_a3":"CYP","brk_diff":0.0,"name":"Cyprus","name_long":"Cyprus","brk_a3":"CYP","brk_name":"Cyprus","brk_group":null,"abbrev":"Cyp.","postal":"CY","formal_en":"Republic of Cyprus","formal_fr":null,"note_adm0":null,"note_brk":null,"name_sort":"Cyprus","name_alt":null,"mapcolor7":1.0,"mapcolor8":2.0,"mapcolor9":3.0,"mapcolor13":7.0,"pop_est":531640.0,"gdp_md_est":22700.0,"pop_year":-99.0,"lastcensus":2001.0,"gdp_year":-99.0,"economy":"6. Developing region","income_grp":"2. High income: nonOECD","wikipedia":-99.0,"fips_10":null,"iso_a2":"CY","iso_a3":"CYP","iso_n3":"196","un_a3":"196","wb_a2":"CY","wb_a3":"CYP","woe_id":-99.0,"adm0_a3_is":"CYP","adm0_a3_us":"CYP","adm0_a3_un":-99.0,"adm0_a3_wb":-99.0,"continent":"Asia","region_un":"Asia","subregion":"Western Asia","region_wb":"Europe & Central Asia","name_len":6.0,"long_len":6.0,"abbrev_len":4.0,"tiny":-99.0,"homepart":1.0
   },
   "geometry": {
     "type": "MultiPolygon",
@@ -1118,7 +1119,7 @@
             32.69803470800028,
             35.15723500600005
           ]
-        ], 
+        ],
         [
         [
           32.9205322265625,
