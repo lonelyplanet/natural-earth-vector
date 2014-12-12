@@ -1,6 +1,9 @@
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "adm0_a3": "AIA",
+        "name": "Anguilla"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
