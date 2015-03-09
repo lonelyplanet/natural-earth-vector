@@ -39,3 +39,6 @@ ECU:
   ECU-W: '-88.8739,-1.9771,-92.0270,0.9228' # Galapogos Islands
 DZA: '12.7441,18.0205,-9.6240,39.1641' # Algeria
 FJI: '-178.3630,-19.2593,-183.1641,-15.9825' # Fiji
+PYF: # French Polynesia 
+  PYF: '-148.9966,-17.9578,-152.5067,-16.3412' # Tahiti, Bora Bora
+  PYF-01: '-138.4991,-10.6282,-140.3339,-8.6951' # Marquesas Islands
