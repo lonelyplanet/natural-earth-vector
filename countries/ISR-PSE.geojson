@@ -9,7 +9,7 @@
     "adm0_a3_us": "ISR-PSE"
   },
   "geometry": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
