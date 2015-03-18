@@ -8,16 +8,24 @@ end
 
 require 'json'
 require 'yaml'
+require 'rgeo'
 
 boundaries = YAML::load_file(boundaries_file)
 
 def polygon_within?(polygon, boundary)
+  geo = RGeo::Geographic.simple_mercator_factory
   lon1, lat1, lon2, lat2 = boundary
   lat1, lon1, lat2, lon2 = lat1.to_f, lon1.to_f, lat2.to_f, lon2.to_f
+  ring = geo.linear_ring([
+    geo.point(lon1, lat1), geo.point(lon2, lat1), geo.point(lon2, lat2), geo.point(lon1, lat2)
+  ])
+  poly = geo.polygon(ring)
   outlyer = polygon.find do |part|
     part.find do |coord|
       c_lon, c_lat = coord
-      c_lon < lon1 || c_lon > lon2 || c_lat < lat1 || c_lat > lat2
+      point = geo.point(c_lon, c_lat)
+      puts point.within?(poly)
+      !point.within?(poly)
     end
   end
   outlyer.nil? ? true : false
